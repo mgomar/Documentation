@@ -1,4 +1,1 @@
-Documentation
-=============
-
-Official Wave Engine's Documentation portal
+Official Wave Engine's Documentation is available [here](https://github.com/WaveEngine/Documentation/wiki).
