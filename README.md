@@ -1,1 +1,5 @@
-Please, Wave Engine's Documentation is available [here](https://github.com/WaveEngine/Documentation/wiki).
+Wave Engine Documentation is available [here](https://github.com/WaveEngine/Documentation/wiki).
+
+Thank you,
+
+-Wave Engine Documentation Team
