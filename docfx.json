@@ -1,0 +1,73 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [            			
+			"Common/WaveEngine.Components/Projects/Windows/WaveEngine.Components.csproj",
+			"Common/WaveEngine.Physics/Projects/Windows/WaveEngine.Physics.csproj",
+			"Common/WaveEngine.Framework/Projects/Windows/WaveEngine.Framework.csproj",			
+          ],
+		  "src":"../"
+         ,
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "recipes/**.md",
+          "recipes/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "recipes/**/images/**"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md",
+		  "api/**"
+		  ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "../DocOnline",
+    "globalMetadataFiles": ["globalMetadata.json"],
+    "fileMetadataFiles": [],
+    "template": [
+      "WaveTemplate"
+    ],
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false
+  }
+}
