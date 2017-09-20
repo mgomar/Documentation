@@ -9,12 +9,7 @@
         <li>
           <a href="{{docurl}}" class="contribution-link">{{__global.improveThisDoc}}</a>
         </li>
-        {{/docurl}}
-        {{#sourceurl}}
-        <li>
-          <a href="{{sourceurl}}" class="contribution-link">{{__global.viewSource}}</a>
-        </li>
-        {{/sourceurl}}
+        {{/docurl}}        
       </ul>
     </div>
     {{/_disableContribution}}
