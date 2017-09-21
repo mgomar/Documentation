@@ -78,8 +78,15 @@
         ]
       }
     ],
-    "dest": "../DocOnline",
-    "globalMetadataFiles": ["globalMetadata.json"],
+    "dest": "../DocOnline",    
+	"globalMetadata":{
+		"_appTitle": "Wave Engine API Doc",
+		"_enableSearch": "true",
+		"_gitContribute": {
+			"repo":"https://github.com/juanlao/Documentation.git",
+			"branch": "develop"
+		}
+      },
     "fileMetadataFiles": [],
     "template": [
       "WaveTemplate"
