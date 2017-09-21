@@ -83,8 +83,8 @@
 		"_appTitle": "Wave Engine API Doc",
 		"_enableSearch": "true",
 		"_gitContribute": {
-			"repo":"https://github.com/juanlao/Documentation.git",
-			"branch": "develop"
+			"repo":"https://github.com/WaveEngine/Documentation.git",
+			"branch": "docfx"
 		}
       },
     "fileMetadataFiles": [],
