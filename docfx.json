@@ -84,7 +84,7 @@
 		"_enableSearch": "true",
 		"_gitContribute": {
 			"repo":"https://github.com/WaveEngine/Documentation.git",
-			"branch": "feature/docfx"
+			"branch": "develop"
 		}
       },
     "fileMetadataFiles": [],
